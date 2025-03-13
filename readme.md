@@ -1,5 +1,7 @@
 # Emotional Collage - Interactive Mood Visualizer
 
+ [View Live Page](https://sandrodevx.github.io/Interactive-Emotional-Collage-/)
+
 ## Description
 This project is an interactive web application that creates a digital art collage based on your emotions. By selecting your current mood, colorful shapes (circles and triangles) are generated and float upwards with hypnotic movements. The app also keeps a history of your moods, stored locally in your browser.
 
