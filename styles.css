@@ -1,0 +1,39 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    background: #000;
+    overflow: hidden; /* Oculta las barras de desplazamiento */
+}
+
+/* Estilos para el lienzo */
+#canvas {
+    width: 100vw; /* Ocupa el 100% del ancho de la pantalla */
+    height: 100vh; /* Ocupa el 100% del alto de la pantalla */
+}
+
+/* Contenedor de los botones de emociones */
+.mood-buttons {
+    position: fixed; /* Fija los botones en la pantalla */
+    bottom: 20px; /* Posición desde la parte inferior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centrado */
+}
+
+/* Estilos para los botones */
+.mood-btn {
+    padding: 15px 25px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+}
+
+/* Efecto al pasar el mouse sobre los botones */
+.mood-btn:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    background-color: #ddd; /* Cambia el color de fondo */
+}
